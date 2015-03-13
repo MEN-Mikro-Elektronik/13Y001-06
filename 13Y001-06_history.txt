@@ -1,0 +1,29 @@
+===== [ History of fileset ART/13Y001-06/13Y001-06 ] =====
+
+
+-----[ Revision 1.5 ]-----
+[ 2012-10-19 12:15:48 by ts ]
+R: 1. XML description did not include all CPUs supporting the driver
+   2. invalid minimum temp value in XML file (RMT_TEMP_OFFS)
+M: 1. added usable CPU boards for this driver to XML file
+   2. set minimum value to 0 degree
+
+-----[ Revision 1.4 ]-----
+[ 2010-01-27 16:25:32 by dpfeuffer ]
+R: MDISWIZ supports new businterface SMBus
+M: 13y00106.xml: bbslot/bbismodel changed to busif SMBus
+
+-----[ Revision 1.3 ]-----
+[ 2009-08-31 12:02:21 by MRoth ]
+R: Porting to MDIS5
+M: added support for 64bit (MDIS_PATH, Set/GetStat prototypes)
+
+-----[ Revision 1.2 ]-----
+[ 2006-02-28 11:08:15 by DPfeuffer ]
+13y00106.xml
+ - now seperate models for F14 and SC14
+
+-----[ Revision 1.1 ]-----
+[ 2005-11-25 15:28:04 by dpfeuffer ]
+Initial Revision
+

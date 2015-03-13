@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
+	<name>13y00106</name>
+	<description>MDIS5 LM63 driver package</description>
+	<date>2012-10-19</date>
+	<revision>1.5</revision>
+	<docroot>DRIVERS/MDIS_LL/LM63/DOC/html/index.html</docroot>
+	<!-- Models -->
+	<modellist>
+		<model>
+			<hwname>LM63</hwname>
+			<modelname>LM63_F14</modelname>
+			<description>LM63 temperature control on SMBus of F14/15/17/18/19P,A19,A20,D9,D601</description>
+			<devtype>MDIS</devtype>
+            <busif>SMBus</busif>
+			<settinglist>
+				<setting>
+					<name>SMB_BUSNBR</name>
+					<description>SMBus bus number</description>
+					<type>U_INT32</type>
+					<defaultvalue>0</defaultvalue>
+					<value>0</value>
+				</setting>
+				<setting hidden="true">
+					<name>SMB_DEVADDR</name>
+					<description>SMBus address of LM63</description>
+					<type>U_INT32</type>
+					<defaultvalue>0x98</defaultvalue>
+				</setting>
+			</settinglist>
+		</model>
+		<model>
+			<hwname>LM63</hwname>
+			<modelname>LM63_SC14</modelname>
+			<description>LM63 temperature and fan control on SMBus of SC14</description>
+			<devtype>MDIS</devtype>
+            <busif>SMBus</busif>
+			<settinglist>
+				<setting>
+					<name>SMB_BUSNBR</name>
+					<description>SMBus bus number</description>
+					<type>U_INT32</type>
+					<defaultvalue>0</defaultvalue>
+					<value>0</value>
+				</setting>
+				<setting hidden="true">
+					<name>SMB_DEVADDR</name>
+					<description>SMBus address of LM63</description>
+					<type>U_INT32</type>
+					<defaultvalue>0x98</defaultvalue>
+				</setting>
+				<setting>
+					<name>TACH_PULSE</name>
+					<description>pulse per revolution fan tachometer</description>
+					<type>U_INT32</type>
+					<defaultvalue>3</defaultvalue>
+					<minvalue>1</minvalue>
+					<maxvalue>3</maxvalue>
+				</setting>
+			</settinglist>
+		</model>
+	</modellist>
+	<settinglist>
+		<setting>
+			<name>RMT_TEMP_OFFSET</name>
+			<description>remote temp offset [degrees Celsius]</description>
+			<type>U_INT32</type>
+			<defaultvalue>0</defaultvalue>
+			<minvalue>0</minvalue>
+			<maxvalue>125</maxvalue>
+		</setting>
+	</settinglist>
+	<!-- Global software modules -->
+	<swmodulelist>
+		<swmodule swap="false">
+			<name>lm63</name>
+			<description>LM63 Driver</description>
+			<type>Low Level Driver</type>
+			<makefilepath>LM63/DRIVER/COM/driver.mak</makefilepath>
+			<notos>NT4</notos>
+		</swmodule>
+		<swmodule>
+			<name>lm63_simp</name>
+			<description>Simple example program for the LM63 driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>LM63/EXAMPLE/LM63_SIMP/COM/program.mak</makefilepath>
+		</swmodule>
+		<swmodule internal="true">
+			<name>lm63_test</name>
+			<description>Test program for the LM63 driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>LM63/TOOLS/LM63_TEST/COM/program.mak</makefilepath>
+		</swmodule>
+	</swmodulelist>
+</package>
