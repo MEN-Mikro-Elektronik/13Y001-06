@@ -12,27 +12,24 @@
  *
  *     \switches _ONE_NAMESPACE_PER_DRIVER_
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: lm63_drv.c,v $
- * Revision 1.4  2009/09/04 11:33:38  MRoth
- * R: MDVE warnings
- * M: removed unused variable valueP
- *
- * Revision 1.3  2009/08/31 11:41:46  MRoth
- * R: Porting to MIDS5
- * M: added support for 64bit (Set/GetStat prototypes)
- *
- * Revision 1.2  2008/09/15 15:46:05  ufranke
- * R: diab compiler warnings
- * M: cosmetics
- *
- * Revision 1.1  2005/11/25 15:19:05  dpfeuffer
- * Initial Revision
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2005..2008 by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #define _NO_LL_HANDLE		/* ll_defs.h: don't define LL_HANDLE struct */
 
