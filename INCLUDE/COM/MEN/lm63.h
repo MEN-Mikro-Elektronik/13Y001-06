@@ -10,16 +10,7 @@
  *                      
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: lm63.h,v $
- * Revision 3.2  2010/09/17 09:11:46  UFranke
- * R: IIC address missing
- * R: IIC address added
- *
- * Revision 3.1  2005/11/25 15:19:16  dpfeuffer
- * Initial Revision
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ****************************************************************************/
