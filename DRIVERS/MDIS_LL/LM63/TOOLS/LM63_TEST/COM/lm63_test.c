@@ -16,19 +16,24 @@
  *     Required: libraries: mdis_api, usr_oss, usr_utl
  *     \switches (none)
  *
- *--------------------------------[ History ]--------------------------------
- *
- * $Log: lm63_test.c,v $
- * Revision 1.2  2009/10/02 17:38:34  MRoth
- * R: syntax fault caused Compiler Error
- * M: changed calculation of temperature difference
- *
- * Revision 1.1  2009/10/02 13:15:10  MRoth
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2009 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 static char *RCSid="$Id: lm63_test.c,v 1.2 2009/10/02 17:38:34 MRoth Exp $\n";
 
 /*-------------------------------------+
