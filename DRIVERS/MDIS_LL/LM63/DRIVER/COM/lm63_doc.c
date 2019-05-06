@@ -160,6 +160,6 @@ Simple example of driver usage
 /** \example lm63_min.dsc */
 /** \example lm63_max.dsc */
 
-/*! \page dummy
+/*! \page lm63dummy MEN logo
   \menimages
 */
