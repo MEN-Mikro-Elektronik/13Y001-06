@@ -1,0 +1,21 @@
+@INCLUDE_PATH = $(MEN_DOXYGENTMPL)
+@INCLUDE = DoxyfileCommon
+
+PROJECT_NAME           = "LM63 MDIS Driver"
+INPUT                  = ../DRIVER/COM \
+                         ../EXAMPLE/LM63_SIMP/COM/lm63_simp.c \
+                         $(MEN_COM_INC)/MEN/lm63_drv.h \
+
+EXAMPLE_RECURSIVE      = YES
+EXAMPLE_PATH           = ../DRIVER/COM \
+                         ../EXAMPLE/LM63_SIMP/COM
+OUTPUT_DIRECTORY       = .
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTMLHELP      = YES
+WARNINGS               = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_IF_UNDOCUMENTED   = YES
+GENERATE_HTMLHELP      = YES
+TAGFILES               = ../../../../LIBSRC/MDIS_API/DOC/mdis_api.tag=../../../../../LIBSRC/MDIS_API/DOC/html
+GENERATE_TAGFILE       = lm63_driver.tag
