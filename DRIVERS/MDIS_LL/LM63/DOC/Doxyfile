@@ -5,6 +5,7 @@ PROJECT_NAME           = "LM63 MDIS Driver"
 INPUT                  = ../DRIVER/COM \
                          ../EXAMPLE/LM63_SIMP/COM/lm63_simp.c \
                          $(MEN_COM_INC)/MEN/lm63_drv.h \
+                         ../TOOLS/LM63_TEST/COM/lm63_test.c
 
 EXAMPLE_RECURSIVE      = YES
 EXAMPLE_PATH           = ../DRIVER/COM \
