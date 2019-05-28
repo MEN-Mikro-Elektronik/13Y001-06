@@ -11,7 +11,7 @@
 
 <div class="left_to_right" style="padding-top: 6px; background-color: #F0F0F0; height: 110px; border-bottom: 2px solid #D1D1D2;">
 	<!-- Titel -->
-	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;"></a>
+	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;">
 	<h1 style="margin: 0px; padding-top: 35px; padding-bottom: 0px;">LM63 MDIS Driver &nbsp; </h1>
 	<h3>Example Documentation</h3>
 </div>
@@ -26,28 +26,26 @@
 <span class="comment"> ************                   LM63_SIMP                         ************</span>
 <span class="comment"> ************                                                    ************</span>
 <span class="comment"> ****************************************************************************/</span>
- <span class="comment">/*-------------------------------[ History ]--------------------------------</span>
-<span class="comment"> *</span>
-<span class="comment"> * $Log: lm63__simp_8c-example.html,v $
-<span class="comment"> * Revision 1.8  2012/10/19 12:01:51  ts
-<span class="comment"> * (AUTOCI) Checkin due to new revision 1.5 of fileset ART/13Y001-06/13Y001-06
-<span class="comment"> *</span>
-<span class="comment"> * Revision 1.3  2009/08/31 11:41:51  MRoth</span>
-<span class="comment"> * R: Porting to MIDS5</span>
-<span class="comment"> * M: added support for 64bit (MDIS_PATH)</span>
-<span class="comment"> *</span>
-<span class="comment"> * Revision 1.2  2008/09/15 15:47:00  ufranke</span>
-<span class="comment"> * R: diab compiler warnings</span>
-<span class="comment"> * M: cosmetics</span>
-<span class="comment"> *</span>
-<span class="comment"> * Revision 1.1  2005/11/25 15:19:12  dpfeuffer</span>
-<span class="comment"> * Initial Revision</span>
-<span class="comment"> *</span>
+ <span class="comment">/*</span>
 <span class="comment"> *---------------------------------------------------------------------------</span>
-<span class="comment"> * (c) Copyright 2005..2008 by MEN mikro elektronik GmbH, Nuernberg, Germany</span>
+<span class="comment"> * Copyright (c) 2005-2019, MEN Mikro Elektronik GmbH</span>
 <span class="comment"> ****************************************************************************/</span>
+<span class="comment">/*</span>
+<span class="comment">* This program is free software: you can redistribute it and/or modify</span>
+<span class="comment">* it under the terms of the GNU General Public License as published by</span>
+<span class="comment">* the Free Software Foundation, either version 2 of the License, or</span>
+<span class="comment">* (at your option) any later version.</span>
+<span class="comment">*</span>
+<span class="comment">* This program is distributed in the hope that it will be useful,</span>
+<span class="comment">* but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="comment">* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="comment">* GNU General Public License for more details.</span>
+<span class="comment">*</span>
+<span class="comment">* You should have received a copy of the GNU General Public License</span>
+<span class="comment">* along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+<span class="comment">*/</span>
 
-<span class="keyword">static</span> <span class="keywordtype">char</span> *RCSid=<span class="stringliteral">"$Id: lm63__simp_8c-example.html,v 1.8 2012/10/19 12:01:51 ts Exp $\n"</span>;
+<span class="keyword">static</span> <span class="keywordtype">char</span> *RCSid=<span class="stringliteral">"$Id: lm63_simp.c,v 1.3 2009/08/31 11:41:51 MRoth Exp $\n"</span>;
 
 <span class="preprocessor">#include &lt;stdio.h&gt;</span>
 <span class="preprocessor">#include &lt;string.h&gt;</span>
@@ -82,13 +80,13 @@
     <span class="comment">/*--------------------+</span>
 <span class="comment">    |  open path          |</span>
 <span class="comment">    +--------------------*/</span>
-    <span class="keywordflow">if</span> ((path = <a name="a2"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a5">M_open</a>(device)) &lt; 0) {
+    <span class="keywordflow">if</span> ((path = <a name="a2"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open</a>(device)) &lt; 0) {
         <a class="code" href="lm63__simp_8c.html#a1">PrintError</a>(<span class="stringliteral">"open"</span>);
         <span class="keywordflow">return</span>(1);
     }
 
     <span class="comment">/* get number of channels */</span>
-    <span class="keywordflow">if</span> ((<a name="a3"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat</a>(path, M_LL_CH_NUMBER, &amp;nbrOfCh)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a name="a3"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat</a>(path, M_LL_CH_NUMBER, &amp;nbrOfCh)) &lt; 0) {
         <a class="code" href="lm63__simp_8c.html#a1">PrintError</a>(<span class="stringliteral">"setstat M_MK_IO_MODE"</span>);
         <span class="keywordflow">goto</span> abort;
     }
@@ -102,13 +100,13 @@
         <span class="keywordflow">for</span>( ch=0; ch&lt;nbrOfCh; ch++ ){
 
             <span class="comment">/* set channel number */</span>
-            <span class="keywordflow">if</span> ((<a name="a4"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, M_MK_CH_CURRENT, ch)) &lt; 0) {
+            <span class="keywordflow">if</span> ((<a name="a4"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, M_MK_CH_CURRENT, ch)) &lt; 0) {
                 <a class="code" href="lm63__simp_8c.html#a1">PrintError</a>(<span class="stringliteral">"setstat M_MK_CH_CURRENT"</span>);
                 <span class="keywordflow">goto</span> abort;
             }
 
             <span class="comment">/* read value from current channel (then increment channel)  */</span>
-            <span class="keywordflow">if</span> ((<a name="a5"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a11">M_read</a>(path, &amp;value ))  &lt; 0 ){
+            <span class="keywordflow">if</span> ((<a name="a5"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_read</a>(path, &amp;value ))  &lt; 0 ){
                 <a class="code" href="lm63__simp_8c.html#a1">PrintError</a>(<span class="stringliteral">"read"</span>);
                 <span class="keywordflow">goto</span> abort;
             }
@@ -134,7 +132,7 @@
 <span class="comment">    |  cleanup            |</span>
 <span class="comment">    +--------------------*/</span>
     abort:
-    <span class="keywordflow">if</span> (<a name="a6"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_close</a>(path) &lt; 0)
+    <span class="keywordflow">if</span> (<a name="a6"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close</a>(path) &lt; 0)
         <a class="code" href="lm63__simp_8c.html#a1">PrintError</a>(<span class="stringliteral">"close"</span>);
 
     <span class="keywordflow">return</span>(0);
@@ -143,7 +141,7 @@
 <span class="comment">/********************************* PrintError ******************************/</span>
 <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="lm63__simp_8c.html#a1">PrintError</a>(<span class="keywordtype">char</span> *info)
 {
-    printf(<span class="stringliteral">"*** can't %s: %s\n"</span>, info, <a name="a7"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api__specification_8c.html#a8">M_errstring</a>(UOS_ErrnoGet()));
+    printf(<span class="stringliteral">"*** can't %s: %s\n"</span>, info, <a name="a7"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/m__errstr_8c.html#a0">M_errstring</a>(UOS_ErrnoGet()));
 }
 
 </pre></div> 
@@ -154,7 +152,7 @@
 <!-- Footer -->
 	<p class="footer">
 	Generated for LM63 MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2012 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
 	</p>
 </div>
 

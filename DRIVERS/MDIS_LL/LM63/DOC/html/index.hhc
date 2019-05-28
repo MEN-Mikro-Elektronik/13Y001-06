@@ -11,6 +11,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Name" value="lm63_drv.c"><param name="Local" value="lm63__drv_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="lm63_drv.h"><param name="Local" value="lm63__drv_8h.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="lm63_simp.c"><param name="Local" value="lm63__simp_8c.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="lm63_test.c"><param name="Local" value="lm63__test_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
@@ -26,6 +27,6 @@
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Related Pages"><param name="Local" value="pages.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="dummy"><param name="Local" value="dummy.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MEN logo"><param name="Local" value="lm63dummy.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 </UL>

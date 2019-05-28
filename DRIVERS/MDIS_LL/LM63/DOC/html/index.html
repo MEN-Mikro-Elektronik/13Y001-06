@@ -11,7 +11,7 @@
 
 <div class="left_to_right" style="padding-top: 6px; background-color: #F0F0F0; height: 110px; border-bottom: 2px solid #D1D1D2;">
 	<!-- Titel -->
-	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;"></a>
+	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;">
 	<h1 style="margin: 0px; padding-top: 35px; padding-bottom: 0px;">LM63 MDIS Driver &nbsp; </h1>
 	<h3>Main Page</h3>
 </div>
@@ -43,7 +43,7 @@ Functional Description</h2>
 <br>
  <h3><a name="General"></a>
 General</h3>
-The driver supports reading of the current value of the current channel via <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a11">M_read()</a> and reading blocks of the current values from all channels via <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a15">M_getblock()</a>. The driver provides the values within a signed 32-bit data quadword.<p>
+The driver supports reading of the current value of the current channel via <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_read()</a> and reading blocks of the current values from all channels via <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_getblock()</a>. The driver provides the values within a signed 32-bit data quadword.<p>
 When the first path is opened to an LM63 device, the HW and the driver are being initialized with default values (see section about <a class="el" href="index.html#descriptor_entries">LM63 Descriptor Entries</a>).<p>
 <br>
  <h3><a name="channels"></a>
@@ -61,20 +61,20 @@ Supported API Functions</h2>
 <td><b>API Function</b> </td><td><b>Functionality</b> </td><td><b>Corresponding Low-Level Function</b><p>
 </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a5">M_open()</a></td><td>Open device</td><td><a class="el" href="lm63__drv_8c.html#a8">LM63_Init()</a><p>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open()</a></td><td>Open device</td><td><a class="el" href="lm63__drv_8c.html#a8">LM63_Init()</a><p>
 </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_close()</a> </td><td>Close device  </td><td><a class="el" href="lm63__drv_8c.html#a9">LM63_Exit()</a>) </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close()</a> </td><td>Close device  </td><td><a class="el" href="lm63__drv_8c.html#a9">LM63_Exit()</a>) </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a11">M_read()</a> </td><td>Read from device  </td><td><a class="el" href="lm63__drv_8c.html#a10">LM63_Read()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_read()</a> </td><td>Read from device  </td><td><a class="el" href="lm63__drv_8c.html#a10">LM63_Read()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat()</a> </td><td>Set device parameter  </td><td><a class="el" href="lm63__drv_8c.html#a12">LM63_SetStat()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat()</a> </td><td>Set device parameter  </td><td><a class="el" href="lm63__drv_8c.html#a12">LM63_SetStat()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat()</a> </td><td>Get device parameter  </td><td><a class="el" href="lm63__drv_8c.html#a13">LM63_GetStat()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat()</a> </td><td>Get device parameter  </td><td><a class="el" href="lm63__drv_8c.html#a13">LM63_GetStat()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a15">M_getblock()</a> </td><td>Block read from device  </td><td><a class="el" href="lm63__drv_8c.html#a14">LM63_BlockRead()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_getblock()</a> </td><td>Block read from device  </td><td><a class="el" href="lm63__drv_8c.html#a14">LM63_BlockRead()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api__specification_8c.html#a9">M_errstringTs()</a> </td><td>Generate error message  </td><td>- </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/m__errstr_8c.html#a1">M_errstringTs()</a> </td><td>Generate error message  </td><td>- </td></tr>
 </table>
 <p>
 <br>
@@ -126,7 +126,7 @@ Simple example of using the driver</h3>
 <!-- Footer -->
 	<p class="footer">
 	Generated for LM63 MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2012 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
 	</p>
 </div>
 

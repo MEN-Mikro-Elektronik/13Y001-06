@@ -22,11 +22,12 @@ lm63__doc_8c.html
 lm63__drv_8c.html
 lm63__drv_8h.html
 lm63__simp_8c.html
+lm63__test_8c.html
 annotated.html
 functions.html
 functions_vars.html
 structLL__HANDLE.html
-dummy.html
+lm63dummy.html
 examples.html
 globals.html
 globals_func.html
