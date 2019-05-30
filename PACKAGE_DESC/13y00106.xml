@@ -12,7 +12,7 @@
 			<modelname>LM63_F14</modelname>
 			<description>LM63 temperature control on SMBus of F14/15/17/18/19P,A19,A20,D9,D601</description>
 			<devtype>MDIS</devtype>
-            <busif>SMBus</busif>
+			<busif>SMBus</busif>
 			<settinglist>
 				<setting>
 					<name>SMB_BUSNBR</name>
@@ -34,7 +34,7 @@
 			<modelname>LM63_SC14</modelname>
 			<description>LM63 temperature and fan control on SMBus of SC14</description>
 			<devtype>MDIS</devtype>
-            <busif>SMBus</busif>
+			<busif>SMBus</busif>
 			<settinglist>
 				<setting>
 					<name>SMB_BUSNBR</name>
