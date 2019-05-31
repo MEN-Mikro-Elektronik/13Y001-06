@@ -3,8 +3,6 @@
  *        \file  lm63_drv.c
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2009/09/04 11:33:38 $
- *    $Revision: 1.4 $
  *
  *      \brief   Low-level driver for LM63 device on SMBus
  *

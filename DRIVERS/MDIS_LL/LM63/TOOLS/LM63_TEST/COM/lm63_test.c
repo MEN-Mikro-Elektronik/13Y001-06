@@ -6,8 +6,6 @@
 /*!
  *         \file lm63_test.c
  *       \author michael.roth@men.de
- *        $Date: 2009/10/02 17:38:34 $
- *    $Revision: 1.2 $
  *
  *        \brief Test program for the LM63 driver.
  *
@@ -34,7 +32,6 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-static char *RCSid="$Id: lm63_test.c,v 1.2 2009/10/02 17:38:34 MRoth Exp $\n";
 
 /*-------------------------------------+
 |   DEFINES                            |
@@ -53,6 +50,8 @@ static char *RCSid="$Id: lm63_test.c,v 1.2 2009/10/02 17:38:34 MRoth Exp $\n";
 #include <MEN/usr_utl.h>
 #include <MEN/lm63_drv.h>
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*-------------------------------------+
 |   PROTOTYPES                         |
 +-------------------------------------*/
@@ -66,7 +65,7 @@ static void header(void)
 	printf("\n======================="
 		   "\n===    LM63_TEST    ==="
 		   "\n======================="
-		   "\n(c)Copyright 2009 by MEN Mikro Elektronik GmbH\n%s\n\n", RCSid);
+		   "\nCopyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString);
 }
 
 /********************************* usage ***********************************/
@@ -87,7 +86,7 @@ static void usage(void)
 		"     lm63_test lm63_1 \n"
 		"\n - test with user define values: \n"
 		"     lm63_test lm63_1 -t=80 -d=5   \n"
-		"\n(c)Copyright 2009 by MEN Mikro Elektronik GmbH\n%s\n\n", RCSid
+		"\nCopyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString
 		);
 }
 

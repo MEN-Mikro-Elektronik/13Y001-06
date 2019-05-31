@@ -6,8 +6,6 @@
 /*!
  *         \file lm63_simp.c
  *       \author dieter.pfeuffer@men.de
- *        $Date: 2009/08/31 11:41:51 $
- *    $Revision: 1.3 $
  *
  *        \brief Simple example program for the LM63 driver.
  *
@@ -35,7 +33,6 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-static char *RCSid="$Id: lm63_simp.c,v 1.3 2009/08/31 11:41:51 MRoth Exp $\n";
 
 #include <stdio.h>
 #include <string.h>
@@ -43,6 +40,8 @@ static char *RCSid="$Id: lm63_simp.c,v 1.3 2009/08/31 11:41:51 MRoth Exp $\n";
 #include <MEN/mdis_api.h>
 #include <MEN/usr_oss.h>
 #include <MEN/lm63_drv.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   PROTOTYPES                          |
@@ -68,7 +67,7 @@ int main(int argc, char *argv[])
 		printf("Function: LM63 example for reading all channels\n");
 		printf("Options:\n");
 		printf("    device       device name\n");
-		printf("%s\n", RCSid );
+		printf("%s\n", IdentString );
 		return(1);
 	}
 

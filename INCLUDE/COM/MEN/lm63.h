@@ -3,8 +3,6 @@
  *        \file  lm63.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2010/09/17 09:11:46 $
- *    $Revision: 3.2 $
  * 
  *  	 \brief  Header file for LM63 chip
  *                      

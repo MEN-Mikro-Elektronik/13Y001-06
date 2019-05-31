@@ -3,8 +3,6 @@
  *        \file  lm63_doc.c
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2009/08/31 11:41:49 $
- *    $Revision: 1.2 $
  *
  *      \brief   User documentation for LM63 device driver
  *

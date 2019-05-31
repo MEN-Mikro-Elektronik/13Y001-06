@@ -3,8 +3,6 @@
  *        \file  lm63_drv.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2009/08/31 11:41:53 $
- *    $Revision: 3.2 $
  *
  *       \brief  Header file for LM63 driver containing
  *               LM63 specific status codes and
