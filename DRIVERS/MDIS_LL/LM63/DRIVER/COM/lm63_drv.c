@@ -87,6 +87,8 @@ typedef struct {
 #include <MEN/ll_entry.h>   /* low-level driver jump table  */
 #include <MEN/lm63_drv.h>	/* LM63 driver header file */
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*-----------------------------------------+
 |  PROTOTYPES                              |
 +-----------------------------------------*/
@@ -777,7 +779,7 @@ static int32 LM63_Info(
  */
 static char* Ident( void )
 {
-    return( "LM63 - LM63 low-level driver: $Id: lm63_drv.c,v 1.4 2009/09/04 11:33:38 MRoth Exp $" );
+    return( (char*) IdentString );
 }
 
 /********************************* Cleanup *********************************/
