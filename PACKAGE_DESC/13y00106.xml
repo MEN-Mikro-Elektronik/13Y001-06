@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
 	<name>13y00106</name>
 	<description>MDIS5 LM63 driver package</description>
-	<date>2012-10-19</date>
-	<revision>1.5</revision>
+	<date>2019-06-07</date>
+	<revision>13Y001-06_01_06-12-g1f0a124</revision>
 	<docroot>DRIVERS/MDIS_LL/LM63/DOC/html/index.html</docroot>
 	<!-- Models -->
 	<modellist>
