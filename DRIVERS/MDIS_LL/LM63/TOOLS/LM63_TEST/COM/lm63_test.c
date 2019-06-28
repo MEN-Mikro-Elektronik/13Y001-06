@@ -42,6 +42,7 @@
 /*-------------------------------------+
 |   INCLUDES                           |
 +-------------------------------------*/
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <MEN/men_typs.h>
@@ -103,7 +104,7 @@ int main(int argc, char *argv[])
 	MDIS_PATH path;
 	char      *deviceP=NULL;
 	char      *optp=NULL, *errstr=NULL, ebuf[100];
-	int32	  ch, nbrOfCh, ret, value, tempDie, tempRmt, tempDiff;
+	int32	  ch, nbrOfCh, value, tempDie = 0, tempRmt = 0, tempDiff;
 	int32     maxtemp, tempDelta;
 
 	/*--------------------+
