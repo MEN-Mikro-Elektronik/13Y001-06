@@ -45,7 +45,6 @@
 <span class="comment">* along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
 <span class="comment">*/</span>
 
-<span class="keyword">static</span> <span class="keywordtype">char</span> *RCSid=<span class="stringliteral">"$Id: lm63_simp.c,v 1.3 2009/08/31 11:41:51 MRoth Exp $\n"</span>;
 
 <span class="preprocessor">#include &lt;stdio.h&gt;</span>
 <span class="preprocessor">#include &lt;string.h&gt;</span>
@@ -53,6 +52,8 @@
 <span class="preprocessor">#include &lt;MEN/mdis_api.h&gt;</span>
 <span class="preprocessor">#include &lt;MEN/usr_oss.h&gt;</span>
 <span class="preprocessor">#include &lt;<a class="code" href="lm63__drv_8h.html">MEN/lm63_drv.h</a>&gt;</span>
+
+<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> IdentString[]=MENT_XSTR(MAK_REVISION);
 
 <span class="comment">/*--------------------------------------+</span>
 <span class="comment">|   PROTOTYPES                          |</span>
@@ -71,7 +72,7 @@
         printf(<span class="stringliteral">"Function: LM63 example for reading all channels\n"</span>);
         printf(<span class="stringliteral">"Options:\n"</span>);
         printf(<span class="stringliteral">"    device       device name\n"</span>);
-        printf(<span class="stringliteral">"%s\n"</span>, RCSid );
+        printf(<span class="stringliteral">"%s\n"</span>, IdentString );
         <span class="keywordflow">return</span>(1);
     }
 
@@ -151,8 +152,7 @@
 <div class="footer">
 <!-- Footer -->
 	<p class="footer">
-	Generated for LM63 MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Generated for LM63 MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>. All Rights Reserved.
 	</p>
 </div>
 

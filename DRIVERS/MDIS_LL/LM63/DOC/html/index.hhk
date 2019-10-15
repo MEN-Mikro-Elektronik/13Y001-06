@@ -6,7 +6,7 @@
 <UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="__LM63_GetEntry"><param name="Name" value="__LM63_GetEntry"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a21"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a22"><param name="Name" value="lm63_drv.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8h.html#a8"><param name="Name" value="lm63_drv.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="_LM63_GLOBNAME"><param name="Name" value="_LM63_GLOBNAME"></OBJECT>
@@ -35,7 +35,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="Cleanup"><param name="Name" value="Cleanup"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a19"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a20"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBG_MYLEVEL"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
   <UL>
@@ -67,7 +67,13 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="Ident"><param name="Name" value="Ident"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a18"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a19"><param name="Name" value="lm63_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IdentString"><param name="Name" value="IdentString"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a8"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a0"><param name="Name" value="lm63_simp.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a2"><param name="Name" value="lm63_test.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="idFuncTbl"><param name="Name" value="idFuncTbl"></OBJECT>
   <UL>
@@ -101,11 +107,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_BlockRead"><param name="Name" value="LM63_BlockRead"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a14"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a15"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_BlockWrite"><param name="Name" value="LM63_BlockWrite"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a15"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a16"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_CH_FANSPEED"><param name="Name" value="LM63_CH_FANSPEED"></OBJECT>
   <UL>
@@ -121,27 +127,28 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html"><param name="Name" value="lm63_drv.c"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a21"><param name="Name" value="__LM63_GetEntry"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a22"><param name="Name" value="__LM63_GetEntry"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a0"><param name="Name" value="_NO_LL_HANDLE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a4"><param name="Name" value="ADDRSPACE_COUNT"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a5"><param name="Name" value="ADDRSPACE_SIZE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a2"><param name="Name" value="CH_BYTES"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a1"><param name="Name" value="CH_NUMBER"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a19"><param name="Name" value="Cleanup"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a20"><param name="Name" value="Cleanup"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a6"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a7"><param name="Name" value="DBH"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a18"><param name="Name" value="Ident"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a14"><param name="Name" value="LM63_BlockRead"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a15"><param name="Name" value="LM63_BlockWrite"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a9"><param name="Name" value="LM63_Exit"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a13"><param name="Name" value="LM63_GetStat"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a17"><param name="Name" value="LM63_Info"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a8"><param name="Name" value="LM63_Init"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a16"><param name="Name" value="LM63_Irq"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a10"><param name="Name" value="LM63_Read"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a12"><param name="Name" value="LM63_SetStat"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a11"><param name="Name" value="LM63_Write"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a20"><param name="Name" value="ReadValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a19"><param name="Name" value="Ident"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a8"><param name="Name" value="IdentString"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a15"><param name="Name" value="LM63_BlockRead"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a16"><param name="Name" value="LM63_BlockWrite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a10"><param name="Name" value="LM63_Exit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a14"><param name="Name" value="LM63_GetStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a18"><param name="Name" value="LM63_Info"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a9"><param name="Name" value="LM63_Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a17"><param name="Name" value="LM63_Irq"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a11"><param name="Name" value="LM63_Read"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a13"><param name="Name" value="LM63_SetStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a12"><param name="Name" value="LM63_Write"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a21"><param name="Name" value="ReadValue"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a3"><param name="Name" value="USE_IRQ"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8h.html"><param name="Name" value="lm63_drv.h"></OBJECT>
@@ -161,11 +168,11 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_Exit"><param name="Name" value="LM63_Exit"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a9"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a10"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_GetStat"><param name="Name" value="LM63_GetStat"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a13"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a14"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_GLOBNAME"><param name="Name" value="LM63_GLOBNAME"></OBJECT>
   <UL>
@@ -173,38 +180,38 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_Info"><param name="Name" value="LM63_Info"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a17"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a18"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_Init"><param name="Name" value="LM63_Init"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a8"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a9"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_Irq"><param name="Name" value="LM63_Irq"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a16"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a17"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_Read"><param name="Name" value="LM63_Read"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a10"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a11"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_SetStat"><param name="Name" value="LM63_SetStat"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a12"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a13"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html"><param name="Name" value="lm63_simp.c"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a0"><param name="Name" value="IdentString"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a2"><param name="Name" value="main"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a1"><param name="Name" value="PrintError"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a0"><param name="Name" value="RCSid"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html"><param name="Name" value="lm63_test.c"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a1"><param name="Name" value="DEFAULT_DIFF"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a4"><param name="Name" value="header"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a2"><param name="Name" value="IdentString"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a6"><param name="Name" value="main"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a0"><param name="Name" value="MAX_TEMP"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a3"><param name="Name" value="PrintError"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a2"><param name="Name" value="RCSid"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a5"><param name="Name" value="usage"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_VARIANT"><param name="Name" value="LM63_VARIANT"></OBJECT>
@@ -213,7 +220,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_Write"><param name="Name" value="LM63_Write"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a11"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a12"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="LM63_XXX"><param name="Name" value="LM63_XXX"></OBJECT>
   <UL>
@@ -245,14 +252,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a1"><param name="Name" value="lm63_simp.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a3"><param name="Name" value="lm63_test.c"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RCSid"><param name="Name" value="RCSid"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__simp_8c.html#a0"><param name="Name" value="lm63_simp.c"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__test_8c.html#a2"><param name="Name" value="lm63_test.c"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="ReadValue"><param name="Name" value="ReadValue"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a20"><param name="Name" value="lm63_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="lm63__drv_8c.html#a21"><param name="Name" value="lm63_drv.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="rmtTempOff"><param name="Name" value="rmtTempOff"></OBJECT>
   <UL>
