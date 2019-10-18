@@ -134,14 +134,6 @@
     </tr>
     </table>
 
-    \n \subsection lm63_min   Minimum descriptor
-    lm63_min.dsc (see Examples section)\n
-    Demonstrates the minimum set of options necessary for using the driver.
-
-    \n \subsection lm63_max   Maximum descriptor
-    lm63_max.dsc (see Examples section)\n
-    Shows all possible configuration options for this driver.
-
     \n \section codes LM63 specific Getstat/Setstat codes
     none
 
@@ -154,9 +146,6 @@
 /** \example lm63_simp.c
 Simple example of driver usage
 */
-
-/** \example lm63_min.dsc */
-/** \example lm63_max.dsc */
 
 /*! \page lm63dummy MEN logo
   \menimages
