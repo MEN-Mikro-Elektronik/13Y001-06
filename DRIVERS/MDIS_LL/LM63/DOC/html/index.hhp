@@ -14,8 +14,6 @@ main="LM63 MDIS Driver","index.hhc","index.hhk","index.html","index.html",,,,,0x
 [FILES]
 index.html
 files.html
-lm63__max_8dsc-example.html
-lm63__min_8dsc-example.html
 lm63__simp_8c-example.html
 lm63__drv_8h-source.html
 lm63__doc_8c.html
