@@ -15,7 +15,7 @@
  *     \switches (none)
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2009-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 /*
 * This program is free software: you can redistribute it and/or modify
@@ -66,7 +66,7 @@ static void header(void)
 	printf("\n======================="
 		   "\n===    LM63_TEST    ==="
 		   "\n======================="
-		   "\nCopyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString);
+		   "\nCopyright 2009-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString);
 }
 
 /********************************* usage ***********************************/
@@ -87,7 +87,7 @@ static void usage(void)
 		"     lm63_test lm63_1 \n"
 		"\n - test with user define values: \n"
 		"     lm63_test lm63_1 -t=80 -d=5   \n"
-		"\nCopyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString
+		"\nCopyright 2009-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString
 		);
 }
 
